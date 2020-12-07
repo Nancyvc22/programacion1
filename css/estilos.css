@@ -1,0 +1,220 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.bod{
+  background-image:url("../images/sailor.jpeg");
+  background-size: 80%;
+  background-position: top;
+  background-attachment:fixed;
+  position:relative;
+}
+.bod header{
+  border: 1px solid black ;
+  background-color: #ccddff;
+  background-image: url("../images/s1.jpg");
+  background-size: 350px 400px;
+  background-position: 330px -90px;
+  border-radius: 40px;
+  width: 1315px;
+  height: 150px;
+  padding: 16px;
+  box-shadow: 5px 5px 20px white;
+  position: fixed;
+  z-index: 500;
+}
+.bod header nav{
+  height: 22px;
+  padding: 16px;
+  margin-left: 520px;
+}
+
+.bod nav a{
+  font-family: verdana;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px;
+  text-shadow: 0px 0px 2px black;
+}
+ .bod nav a:hover{
+   background-color: #f9f9f9;
+   color: black;
+   border-radius: 10px;
+ }
+
+
+.ttxx{
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: justify;
+  font-weight: bolder;
+}
+.ttxx:hover{
+
+}
+
+.bod section{
+  width: 950px;
+  margin: 0 auto;
+}
+
+.bod article .hotel{
+margin: 5px;
+}
+.f1{
+  position: absolute;
+  margin-right: 200px;
+  border-radius: 20px;
+  margin-top: 210px;
+  border-bottom: 1px;
+  padding: 20px;
+  background-color: gray;
+}
+.f2{
+  position: absolute;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: gray;
+  margin-right: 200px;
+  border-radius: 20px;
+  margin-top: 1000px;
+  padding: 20px;
+  background-color: gray;
+
+}
+.bod footer{
+  margin-top: 1200px;
+  width: 1348px;
+  position: absolute;
+  background-color: #C0CDFF;
+  padding-bottom: 5px;
+  color: black;
+  text-align: center;
+  font-family: verdana;
+  font-weight: bold;
+}
+.bod .correo{
+  font-size: 1em;
+}
+
+/* Termina la seccion del index.html */
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+  background-color: gray;
+}
+.body{
+  background-image:-webkit-linear-gradient(to right,rgba(0, 0, 0, 0.836), rgba(2, 2, 2, 0.2)),url("../images/s4.jpg");
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.836), rgba(2, 2, 2, 0.2)),url("../images/s4.jpg");
+  background-size: contain;
+  background-attachment:fixed;
+  position:relative;
+}
+/* Estilos generales del menú para todas las paginas */
+
+.body header{
+  width: 100%;
+  height: 55px;
+  padding-bottom: 10px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 500;
+}
+
+ #logo1{
+   border-radius: 15px;
+   margin-top: 20px;
+   margin-left: 400px;
+   width: 45px;
+   height: 45px;
+   float: left;
+   position: fixed;
+   background-color: white;
+ }
+ #logo2{
+   border-radius: 15px;
+   margin-top: 20px;
+   margin-left: 900px;
+   width: 45px;
+   height: 45px;
+   float: left;
+   position: fixed;
+ }
+
+header h1{
+  text-align: center;
+  color: white;
+  font-family: thinly;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 470px;
+  font-size: 2.1em;
+  text-shadow: 0px 5px 2px black;
+}
+
+.body header nav{
+  padding-right: 10px;
+}
+.body nav ul li{
+  display: inline;
+}
+
+.body #menu a{
+  margin-top: -30px;
+  float: right;
+  margin-right: 100px;
+  font-family: thinly;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.body #menu a:hover{
+  color: silver;
+  transition: .6s;
+}
+
+/* Terminan los estilos generales */
+
+
+/* Esta parte pertenece a la seccion de Codigos*/
+
+.body #codigo a{
+  color: white;
+  text-decoration: none;
+}
+.body #TEXT{
+  font-family: thinly;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+  position:absolute;
+  top: 80px;
+  left: 600px;
+  text-shadow: 5px 5px 10px black;
+}
+.body #codigos1 {
+  font-family: thinly;
+  font-size: 1.5em;
+  color: white;
+  position:absolute;
+  top: 150px;
+  left: 600px;;
+  text-shadow: 5px 5px 10px black;
+}
+.body #codigos1 a:hover{
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 10px;
+  color: black;
+  transition: .5s;
+}
+/* termina la seccion de "Codigos" */

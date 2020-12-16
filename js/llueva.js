@@ -17,7 +17,7 @@ for (var b = 0; b < random(150); b++){
 
 }
 draw = function() {
-    background(204, 247, 255);
+    background(50, 100, 200);
 
     for (var i = 0; i < xPositions.length; i++) {
         noStroke();

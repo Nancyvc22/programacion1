@@ -27,7 +27,7 @@
 .bod header nav{
   height: 22px;
   padding: 16px;
-  margin-left: 520px;
+  margin-left: 560px;
 }
 
 .bod nav a{
@@ -67,28 +67,32 @@ margin: 5px;
 }
 .f1{
   position: absolute;
-  margin-right: 200px;
+  text-align: center;
+  width: 70%;
   border-radius: 20px;
   margin-top: 210px;
   border-bottom: 1px;
   padding: 20px;
   background-color: gray;
 }
+.f1 h2{
+  text-align: center;
+}
 .f2{
   position: absolute;
   border-radius: 20px;
-  margin-top: 30px;
+  margin-left: 350px;
   padding: 20px;
   background-color: gray;
   margin-right: 200px;
   border-radius: 20px;
-  margin-top: 1000px;
+  margin-top: 450px;
   padding: 20px;
   background-color: gray;
 
 }
 .bod footer{
-  margin-top: 1200px;
+  margin-top: 750px;
   width: 1348px;
   position: absolute;
   background-color: #C0CDFF;
